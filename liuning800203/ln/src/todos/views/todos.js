@@ -5,11 +5,11 @@ import TodoList from './todoList.js';
 import './style.css';
 
 export default () => {
-  return (
-    <div className="todos">
-      <AddTodo />
-      <TodoList />
-    </div>
-  );
+    return (
+        <div className="todos">
+            <AddTodo/>
+            <TodoList/>
+        </div>
+    );
 }
 

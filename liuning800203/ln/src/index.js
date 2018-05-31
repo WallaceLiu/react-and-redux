@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux';
-import TodoApp from './TodoApp';
-
-import store from './Store.js';
+import {AreaAddr12Selector} from './areaAddr'
 
 ReactDOM.render(
-  <Provider store={store}>
-    <TodoApp />
-  </Provider>,
-  document.getElementById('root')
+    <div>
+        <AreaAddr12Selector lev1="区域" lev2="一级地址" lev3="二级地址"/>
+    </div>
+    ,
+    document.getElementById('root')
 );

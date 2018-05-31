@@ -25,7 +25,9 @@ class ControlPanel extends Component {
     // 子组件点击+ -后，会调用此方法
     onCounterUpdate(newValue, previousValue) {
         const valueChange = newValue - previousValue;
-        this.setState({sum: this.state.sum + valueChange});
+        this.setState({
+            sum: this.state.sum + valueChange
+        });
     }
 
     render() {

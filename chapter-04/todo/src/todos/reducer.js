@@ -11,6 +11,19 @@ export default (state = [], action) => {
                 },
                 ...state
             ]
+
+            // 扩展运算符，简化数组操作
+            // 把对象添加到数组中
+            // return Object.assign({}, state, {
+            //     todos: [
+            //         ...state,
+            //         {
+            //             id: action.id,
+            //             text: action.text,
+            //             completed: false
+            //         }
+            //     ]
+            // })
         }
         case TOGGLE_TODO: {
             return state.map((todoItem) => {

@@ -3,6 +3,9 @@ import {connect} from 'react-redux';
 
 import {addTodo} from '../actions.js';
 
+import {DatePicker} from 'antd';
+import 'antd/dist/antd.css';
+
 class AddTodo extends Component {
 
     constructor(props, context) {
@@ -13,6 +16,7 @@ class AddTodo extends Component {
     }
 
     onSubmit(ev) {
+        console.log('enter addTodo onSubmit...')
         ev.preventDefault();
 
         const input = this.input;
@@ -25,12 +29,16 @@ class AddTodo extends Component {
     }
 
     refInput(node) {
+        console.log('enter addTodo refInput...')
         this.input = node;
     }
 
     render() {
+        console.log('enter addTodo render...')
         return (
+
             <div className="add-todo">
+                <DatePicker/>
                 <form onSubmit={this.onSubmit}>
                     <input className="new-todo" ref={this.refInput}/>
                     <button className="add-btn" type="submit">

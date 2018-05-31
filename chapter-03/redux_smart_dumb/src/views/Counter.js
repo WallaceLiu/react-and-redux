@@ -7,6 +7,7 @@ const buttonStyle = {
     margin: '10px'
 };
 
+// 聪明控件
 class Counter extends Component {
     render() {
         const {caption, onIncrement, onDecrement, value} = this.props;
@@ -29,6 +30,7 @@ Counter.propTypes = {
 };
 
 
+// 傻瓜控件
 class CounterContainer extends Component {
     constructor(props) {
         super(props);

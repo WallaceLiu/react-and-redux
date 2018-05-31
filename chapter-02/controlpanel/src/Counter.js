@@ -44,11 +44,15 @@ class Counter extends Component {
     }
 
     onClickIncrementButton() {
-        this.setState({count: this.state.count + 1});
+        this.setState({
+            count: this.state.count + 1
+        });
     }
 
     onClickDecrementButton() {
-        this.setState({count: this.state.count - 1});
+        this.setState({
+            count: this.state.count - 1
+        });
     }
 
     // 生命周期
@@ -58,7 +62,7 @@ class Counter extends Component {
     }
 
     render() {
-        console.log('enter render ' + this.props.caption);
+        console.log('enter render...');
         const {caption} = this.props;
         return (
             <div>
@@ -70,7 +74,7 @@ class Counter extends Component {
     }
 }
 
-// 即便是在上线环境也不是必需的
+// 即便是在线上环境也不是必需的
 Counter.propTypes = {
     caption: PropTypes.string.isRequired,
     initValue: PropTypes.number

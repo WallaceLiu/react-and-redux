@@ -13,6 +13,7 @@ class AddTodo extends Component {
     }
 
     onSubmit(ev) {
+        console.log('enter addTodo onSubmit...')
         ev.preventDefault();
 
         const input = this.input;
@@ -25,10 +26,12 @@ class AddTodo extends Component {
     }
 
     refInput(node) {
+        console.log('enter addTodo refInput...')
         this.input = node;
     }
 
     render() {
+        console.log('enter addTodo render...')
         return (
             <div className="add-todo">
                 <form onSubmit={this.onSubmit}>

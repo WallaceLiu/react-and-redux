@@ -2,8 +2,10 @@ import React, {Component} from 'react';
 
 class ClickCounter extends Component {
 
+    // 构造函数
     constructor(props) {
         super(props);
+
         this.onClickButton = this.onClickButton.bind(this);
         // state 内部状态
         this.state = {
@@ -14,7 +16,11 @@ class ClickCounter extends Component {
     // 单击事件
     onClickButton() {
         // 只能采用setState赋值
-        this.setState({count: this.state.count + 1});
+        // setState 方法由父类 Component 所提供
+        // 接受对象和函数作为参数
+        this.setState({
+            count: this.state.count + 1
+        });
     }
 
     render() {

@@ -15,7 +15,7 @@ Summary.propTypes = {
 };
 
 
-// 又封装了一层容器
+// 傻瓜控件
 class SummaryContainer extends Component {
     constructor(props) {
         super(props);
