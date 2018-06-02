@@ -1,6 +1,10 @@
-export const FilterTypes = {
-  ALL: '全部',
-  COMPLETED: '已完成',
-  UNCOMPLETED: '未完成'
+export const DimTypes = {
+    AREA: 'area',
+    DAWN_ARE: 'area_dawn',
+    ADDRESS_1: 'address_1',
+    ADDRESS_2: 'address_2',
+    ADDRESS_3: 'address_3',
+    ADDRESS_4: 'address_4',
+    DISPATCH: 'dispatch',
 }
 

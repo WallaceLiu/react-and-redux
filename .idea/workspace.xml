@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="413063ca-b0ba-484d-a59d-577ebcd2ef2a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/ln-demo/ln/src/areaAddr/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ln-demo/ln/src/areaAddr/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ln-demo/ln/src/areaAddr/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ln-demo/ln/src/dim/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ln-demo/ln/src/dim/view/DIm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comment-app" beforeDir="false" afterPath="$PROJECT_DIR$/comment-app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ln-demo/ln/src/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/ln-demo/ln/src/constants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-demo" beforeDir="false" afterPath="$PROJECT_DIR$/react-demo" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,102 +21,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CommentList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comment-app/comment-app2/src/CommentList.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ln-demo/ln/src/areaAddr/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="54">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Comment.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comment-app/comment-app/src/Comment.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommentApp.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comment-app/comment-app/src/CommentApp.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wrapWithLoadData.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/comment-app/comment-app2-hoc/src/wrapWithLoadData.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Comment.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comment-app/comment-app2-hoc/src/Comment.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1116">
-              <caret line="62" column="43" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommentApp.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comment-app/comment-app2-hoc/src/CommentApp.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommentInput.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comment-app/comment-app2-hoc/src/CommentInput.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommentList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comment-app/comment-app2-hoc/src/CommentList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comment-app/comment-app2-hoc/src/index.css">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comment-app/comment-app2-hoc/src/index.js">
+        <entry file="file://$PROJECT_DIR$/ln-demo/ln/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ln-demo/ln/src/todos/actions.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="actions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ln-demo/ln/src/areaAddr/actions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="8" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#163#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actionTypes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ln-demo/ln/src/areaAddr/actionTypes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actionTypes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ln-demo/ln/src/todos/actionTypes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ln-demo/ln/src/todos/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ln-demo/ln/src/todos/reducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ln-demo/ln/src/areaAddr/reducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="754">
+              <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#163#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="constants.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ln-demo/ln/src/constants.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -126,11 +130,16 @@
       <find>createElement</find>
       <find>createdTime</find>
       <find>_loadUsername</find>
+      <find>,</find>
+      <find>:</find>
+      <find>DIM_</find>
     </findStrings>
     <replaceStrings>
       <replace>area</replace>
       <replace>onAddr2Change</replace>
       <replace>江苏</replace>
+      <replace>;</replace>
+      <replace>=</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -139,11 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapter-03/redux_basic/src/views/ControlPanel.js" />
-        <option value="$PROJECT_DIR$/chapter-03/redux_basic/src/views/Counter.js" />
-        <option value="$PROJECT_DIR$/chapter-03/redux_smart_dumb/src/views/Counter.js" />
-        <option value="$PROJECT_DIR$/chapter-03/redux_smart_dumb/src/views/Summary.js" />
-        <option value="$PROJECT_DIR$/chapter-03/redux_with_context/src/views/Summary.js" />
         <option value="$PROJECT_DIR$/chapter-03/react-redux/src/views/Counter.js" />
         <option value="$PROJECT_DIR$/chapter-04/todo/src/Store.js" />
         <option value="$PROJECT_DIR$/chapter-04/todo/src/TodoApp.js" />
@@ -190,6 +194,11 @@
         <option value="$PROJECT_DIR$/comment-app/comment-app2/src/CommentList.js" />
         <option value="$PROJECT_DIR$/comment-app/README.md" />
         <option value="$PROJECT_DIR$/comment-app/comment-app/src/CommentApp.js" />
+        <option value="$PROJECT_DIR$/ln-demo/ln/src/dim/view/DIm.js" />
+        <option value="$PROJECT_DIR$/ln-demo/ln/src/constants.js" />
+        <option value="$PROJECT_DIR$/ln-demo/ln/src/areaAddr/actions.js" />
+        <option value="$PROJECT_DIR$/ln-demo/ln/src/areaAddr/actionTypes.js" />
+        <option value="$PROJECT_DIR$/ln-demo/ln/src/areaAddr/reducer.js" />
       </list>
     </option>
   </component>
@@ -219,7 +228,7 @@
     <handled-path value="$PROJECT_DIR$/comment-app/comment-app/node_modules" />
     <handled-path value="$PROJECT_DIR$/comment-app/comment-app2-hoc/node_modules" />
     <handled-path value="$PROJECT_DIR$/comment-app/comment-app2/node_modules" />
-    <handled-path value="$PROJECT_DIR$/liuning800203/ln/node_modules" />
+    <handled-path value="$PROJECT_DIR$/ln-demo/ln/node_modules" />
     <handled-path value="$PROJECT_DIR$/my-first-react/node_modules" />
     <handled-path value="$PROJECT_DIR$/react-demo/node_modules" />
   </component>
@@ -256,7 +265,7 @@
       <path value="$PROJECT_DIR$/comment-app/comment-app2-hoc/package.json" />
       <path value="$PROJECT_DIR$/comment-app/comment-app2/package.json" />
       <path value="$PROJECT_DIR$/comment-app/comment-app3/package.json" />
-      <path value="$PROJECT_DIR$/liuning800203/ln/package.json" />
+      <path value="$PROJECT_DIR$/ln-demo/ln/package.json" />
       <path value="$PROJECT_DIR$/my-first-react/package.json" />
       <path value="$PROJECT_DIR$/react-demo/package.json" />
     </packageJsonPaths>
@@ -280,6 +289,66 @@
               <item name="react-and-redux" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-and-redux" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="react-and-redux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-and-redux" type="462c0819:PsiDirectoryNode" />
+              <item name="comment-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-and-redux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-and-redux" type="462c0819:PsiDirectoryNode" />
+              <item name="comment-app" type="462c0819:PsiDirectoryNode" />
+              <item name="comment-app2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-and-redux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-and-redux" type="462c0819:PsiDirectoryNode" />
+              <item name="comment-app" type="462c0819:PsiDirectoryNode" />
+              <item name="comment-app2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-and-redux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-and-redux" type="462c0819:PsiDirectoryNode" />
+              <item name="ln-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-and-redux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-and-redux" type="462c0819:PsiDirectoryNode" />
+              <item name="ln-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="ln" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-and-redux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-and-redux" type="462c0819:PsiDirectoryNode" />
+              <item name="ln-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="ln" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-and-redux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-and-redux" type="462c0819:PsiDirectoryNode" />
+              <item name="ln-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="ln" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="areaAddr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-and-redux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-and-redux" type="462c0819:PsiDirectoryNode" />
+              <item name="ln-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="ln" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dim" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-and-redux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-and-redux" type="462c0819:PsiDirectoryNode" />
+              <item name="ln-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="ln" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="todos" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -297,11 +366,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ln-demo/ln/src/areaAddr" />
+      <recent name="$PROJECT_DIR$/ln-demo/ln/src/dim/view" />
+      <recent name="$PROJECT_DIR$/ln-demo/ln/src/dim" />
       <recent name="$PROJECT_DIR$/my-first-react/src" />
       <recent name="$PROJECT_DIR$/my-first-react/src/listTwo" />
-      <recent name="$PROJECT_DIR$/my-first-react/src/listTwo/view" />
-      <recent name="$PROJECT_DIR$/liuning800203/ln/src/areaAddr12" />
-      <recent name="$PROJECT_DIR$/liuning800203/ln/src/areaAddr12/view" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -391,7 +460,7 @@
       <workItem from="1527666205561" duration="1284000" />
       <workItem from="1527673662890" duration="519000" />
       <workItem from="1527730030501" duration="4010000" />
-      <workItem from="1527741791139" duration="31553000" />
+      <workItem from="1527741791139" duration="37295000" />
     </task>
     <servers />
   </component>
@@ -401,7 +470,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87065000" />
+    <option name="totallyTimeSpent" value="92807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -467,104 +536,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter-04/todo/src/TodoApp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-first-react/src/listOne/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-first-react/src/listTwo/view/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-first-react/src/listTwo/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-first-react/src/listThree/view/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-first-react/src/listFour/view/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-first-react/src/App.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-first-react/src/listFour/view/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="20" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-first-react/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-first-react/src/listFour/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-first-react/src/list/view/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-naive-book-examples/comment-app/src/CommentList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-naive-book-examples/comment-app/src/CommentInput.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-naive-book-examples/comment-app/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -698,23 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comment-app/comment-app2/src/CommentInput.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comment-app/comment-app2/src/CommentApp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/comment-app/comment-app2/src/Comment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="508">
@@ -789,16 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comment-app/comment-app2/src/CommentList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/comment-app/comment-app/src/Comment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -864,8 +808,136 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/comment-app/comment-app2-hoc/src/wrapWithLoadData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="329">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ln-demo/ln/src/dim/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ln-demo/ln/src/areaAddr/views/areaAddr12Selector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="63" column="105" lean-forward="true" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="105" />
+          <folding>
+            <element signature="e#94#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comment-app/comment-app2/src/CommentInput.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comment-app/comment-app2/src/CommentList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comment-app/comment-app2/src/CommentApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ln-demo/ln/src/dim/view/DIm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="50" column="2" lean-forward="true" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ln-demo/ln/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ln-demo/ln/src/todos/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ln-demo/ln/src/todos/actionTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ln-demo/ln/src/todos/actions.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ln-demo/ln/src/todos/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ln-demo/ln/src/areaAddr/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ln-demo/ln/src/areaAddr/actionTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ln-demo/ln/src/areaAddr/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ln-demo/ln/src/areaAddr/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ln-demo/ln/src/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
